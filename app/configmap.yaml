@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lab-web
+data:
+  index.html: |
+    <!doctype html><html lang="ru"><meta charset="utf-8"><title>Практическая работа 14</title><body><h1>GitOps — Терешин Артем Дмитриевич</h1><p>ЭФБО-14-24</p><p>Версия 1</p><p>Страница опубликована Argo CD из Git.</p></body></html>
